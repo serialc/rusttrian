@@ -1,15 +1,21 @@
 <!DOCTYPE html>
     <head>
         <title>Rusttrian</title>
+        <script src="js/d3.v7.min.js" type="text/javascript"></script>
+        <script src="js/quickhull.js" type="text/javascript"></script>
     </head>
     
     <body>
-        <h1>Triangulate in Rust</h1>
-        <p>Use the following to locate a drop or where a raid is happening with the help of a team-mate and you indicating the direction of the air drop or noise.</p>
+        <h1>Triangulate locations using two perspectives</h1>
+        <p>Use the following to locate a point on map by proving the grid location and direction of a features.</p>
 
         <h2>Basic inputs</h2>
         Location 1: <input type="text" id="l1"> direction: <input type="number" id="d1"><br>
         Location 2: <input type="text" id="l2"> direction: <input type="number" id="d2">
+        <button type="button" id="start">Triangulate</button>
+
+        <h2>Results</h2>
+        <p id="results"></p>
 
         <h2>Advanced inputs</h2>
 
@@ -25,5 +31,5 @@
             <li></li>
         </ol>
     </body>
-    <script src="rusttrian.js" type="text/javascript"></script>
+    <script src="js/rusttrian.js" type="text/javascript"></script>
 </html>
