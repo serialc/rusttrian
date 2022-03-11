@@ -144,8 +144,10 @@ TR.test = function(test_num) {
     };
 };
 
-TR.process = function() {
+TR.process = function(event) {
     'use strict'
+
+    event.preventDefault();
 
     // retrieve values and do the work
     let el1 = document.getElementById("l1");
@@ -468,8 +470,10 @@ TR.createGrid = function(target, grid_name) {
 
 };
 
-TR.processAdvanced = function() {
+TR.processAdvanced = function(event) {
     'use strict'
+
+    event.preventDefault();
 
     // retrieve values and do the work
     let el1 = document.getElementById("l1");
