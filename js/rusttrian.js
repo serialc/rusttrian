@@ -218,7 +218,6 @@ TR.process = function(event) {
                         
         //.attr("width", width + margin.left + margin.right)
         .attr("width", "100%")
-        .attr("height", "500");
 
     // view paths from grids
     svg.append("g")
@@ -524,7 +523,7 @@ TR.processAdvanced = function(event) {
                         
         //.attr("width", width + margin.left + margin.right)
         .attr("width", "100%")
-        .attr("height", "500");
+    
     // remove svg if exists
     d3.select("#figure").remove();
 

@@ -27,66 +27,71 @@
             <div class="row">
                 <div class="col-12">
                     <h1>Triangulate locations using two perspectives</h1>
-                    <p>Locate a map point by providing the grid location and direction of a feature.</p>
-                    <p>Know what you're doing? <a href="#letsgo">Let's go!</a></o>
+                    <p>Estimate the location or area of a distant feature by providing observation locations and feature directions.</p>
                     <p>See below for the instructions and the tool.</p>
+                    <p>Already know what you're doing? <a href="#letsgo">Let's go!</a></o>
                 </div>
 
                 <div class="col-12">
                     <h2>Instructions</h2>
 
                     <div class="row">
-                        <div class="col-3">
-                            <p>In the case you have a map grid, as shown below, indicate the the location in the forms shown in each grid cell (e.g., C1, E5). Then indicate which heading or direction you wish to locate from both perspectives using compass headings (e.g., North is 0, East 90, South 180, West 270).</p>
+                        <div class="col-12">
+                            <p><strong>The situation.</strong> You and a friend, that is located at some distance from yourself, observe a feature or sound, such as a supply-drop parachuting down or a particular sound. 
+                            It's quite far and will likely either stop being visible or audible before you reach it. In the examples above this means the air drop will land in the forest or the sound will stop before your reach it.
+                            You're likely to underestimate it's distance and landing location due to this.
+                            By <strong>triangulating</strong> the location with your friend's help however, you'll be able to get a good estimate of the distance and location of the feauture.</p>
+                            <img class="float-end ms-4 mb-4" src="rsc/example1.svg" width="50%">
+                            <p>Using a map with grid cells available, as shown adjacent, note the location (e.g., C1, E5) of each observer.
+                            Then for each observer indicate the compass direction of the feature or sound you wish to locate (e.g., North is 0, East 90, South 180, West 270). Click <strong>Triangulate</strong> and a rough area will be shown.</p>
                         </div>
-                        <div class="col-9">
-                            <p><img src="rsc/example1.svg" width="100%"></p>
+                        <div class="col-12">
+                            <img class="float-start mb-4 me-4" src="rsc/accuracy.svg">
+                            <p>Due to the innacuracy of your location (the whole grid cell) the search area above, in green, is quite large. You can provide your location more accurately using the precision options that appear after submitting your first four parameters (as shown to the left).</p>
                         </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-6">
-                            <p>Due to the innacuracy of your location (the whole grid cell) the search area above, in green, is quite large. You can provide your location more accurately using the precision options that appear after submitting your first four parameters (as shown on the right).</p>
-                        </div>
-
-                        <div class="col-6">
-                            <p><img src="rsc/accuracy.svg"></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-3">
-                            <p>The results provide a much smaller area with the added location accuracy. Note that for this improved accuracy search a smaller uncertainty is added to the directions to provide an area rather than a point.</p>
-                        </div>
-                        <div class="col-9">
-                            <p><img src="rsc/example2.svg" width="100%"></p>
+                        <div class="col-12">
+                            <img class="float-end ms-4 mb-4" src="rsc/example2.svg" width="50%">
+                            <p>The results provide a much smaller area than before with the added location accuracy.
+                            Note that for this improved accuracy search a small uncertainty is added to the directions to provide an area rather than a point as reading compass headings have some error.</p>
+                            <p>Now try it out yourself below.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
-                    <h2 id="letsgo">Basic inputs</h2>
+                    <h2 id="letsgo">Triangulation inputs</h2>
                     <p>Provide the grid coordinate locations and headings from two perspectives.</p>
+
                     <form class="row g-3 needs-validation" novalidate>
-                        <div class="col-md-6">
-                            <label for="l1" class="form-label">Location 1</label>
-                            <input type="text" class="form-control" id="l1" autofocus="autofocus" required>
-                            <div class="form-text">Examples: C9, f22</div>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="d1" class="form-label">Heading 1</label>
-                            <input type="number" class="form-control" id="d1" required>
-                            <div class="form-text">Examples: 100, 70. North is 0/360.</div>
+                        <div class="col-12">
+                            <span class="fw-bold">Location 1</span>
                         </div>
 
-                        <div class="col-md-6">
-                            <label for="l2" class="form-label">Location 2</label>
-                            <input type="text" class="form-control" id="l2" required>
+                        <div class="col-6">
+                            <input type="text" class="form-control" id="l1" placeholder="Grid cell" required>
+                            <div class="form-text">e.g., B3, AB19</div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="d2" class="form-label">Heading 2</label>
-                            <input type="number" class="form-control" id="d2" required>
+
+                        <div class="col-6">
+                            <input type="number" class="form-control" id="d1" placeholder="Compass heading - e.g., 15, 330" required>
+                            <div class="form-text">e.g., 15, 30</div>
                         </div>
+
+                        <div class="col-12">
+                            <span class="fw-bold">Location 2</span>
+                        </div>
+
+                        <div class="col-6">
+                            <input type="text" class="form-control" id="l2" placeholder="Grid cell 2" required>
+                            <div class="form-text">e.g., C9, f22</div>
+                        </div>
+
+                        <div class="col-6">
+                            <input type="number" class="form-control" id="d2" placeholder="Compass heading" required>
+                            <div class="form-text">e.g., 70, 220</div>
+                        </div>
+
                         <div class="text-end ol-md-12">
                             <button class="btn btn-primary" id="start">Triangulate</button>
                         </div>
@@ -113,7 +118,7 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="mb-5">Results</h2>
+                    <h2>Results</h2>
 <style>
 .pointer {
     cursor: pointer;
