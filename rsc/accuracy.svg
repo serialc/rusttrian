@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="l1gsvg"
+   width="213.38583"
+   height="100"
+   viewBox="-20 -20 298.74017 140"
+   version="1.1"
+   sodipodi:docname="accuracy.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs53" />
+  <sodipodi:namedview
+     id="namedview51"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.1825"
+     inkscape:cx="-117.98396"
+     inkscape:cy="92.783505"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="l1gsvg" />
+  <g
+     id="g1222">
+    <rect
+       x="0"
+       y="0"
+       width="100"
+       height="100"
+       stroke="#808080"
+       stroke-width="4"
+       fill="none"
+       id="rect2" />
+    <text
+       x="10"
+       y="30"
+       font-size="24px"
+       id="text4">C1</text>
+    <g
+       id="g24">
+      <circle
+         fill="#0000ff"
+         opacity="0.5"
+         class="hover"
+         cx="0"
+         cy="0"
+         r="20"
+         id="circle6" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="0"
+         cy="50"
+         r="20"
+         id="circle8" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="0"
+         cy="100"
+         r="20"
+         id="circle10" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="50"
+         cy="0"
+         r="20"
+         id="circle12" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="50"
+         cy="50"
+         r="20"
+         id="circle14" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="50"
+         cy="100"
+         r="20"
+         id="circle16" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="100"
+         cy="0"
+         r="20"
+         id="circle18" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="100"
+         cy="50"
+         r="20"
+         id="circle20" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="100"
+         cy="100"
+         r="20"
+         id="circle22" />
+    </g>
+  </g>
+  <g
+     id="g1208"
+     transform="translate(158.74016)">
+    <rect
+       x="0"
+       y="0"
+       width="100"
+       height="100"
+       stroke="#808080"
+       stroke-width="4"
+       fill="none"
+       id="rect26" />
+    <text
+       x="10"
+       y="30"
+       font-size="24px"
+       id="text28">E5</text>
+    <g
+       id="g48">
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="0"
+         cy="0"
+         r="20"
+         id="circle30" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="0"
+         cy="50"
+         r="20"
+         id="circle32" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="0"
+         cy="100"
+         r="20"
+         id="circle34" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="50"
+         cy="0"
+         r="20"
+         id="circle36" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="50"
+         cy="50"
+         r="20"
+         id="circle38" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="50"
+         cy="100"
+         r="20"
+         id="circle40" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="100"
+         cy="0"
+         r="20"
+         id="circle42" />
+      <circle
+         fill="#0000ff"
+         opacity="0.5"
+         class="hover"
+         cx="100"
+         cy="50"
+         r="20"
+         id="circle44" />
+      <circle
+         fill="#008000"
+         opacity="0.5"
+         class="hover"
+         cx="100"
+         cy="100"
+         r="20"
+         id="circle46" />
+    </g>
+  </g>
+</svg>

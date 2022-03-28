@@ -25,13 +25,47 @@
         </nav>
         <div class="container pb-5">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12">
                     <h1>Triangulate locations using two perspectives</h1>
-                    <p>Use the following to locate a map point by providing the grid location and direction of a feature.</p>
+                    <p>Locate a map point by providing the grid location and direction of a feature.</p>
+                    <p>Know what you're doing? <a href="#letsgo">Let's go!</a></o>
+                    <p>See below for the instructions and the tool.</p>
+                </div>
+
+                <div class="col-12">
+                    <h2>Instructions</h2>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <p>In the case you have a map grid, as shown below, indicate the the location in the forms shown in each grid cell (e.g., C1, E5). Then indicate which heading or direction you wish to locate from both perspectives using compass headings (e.g., North is 0, East 90, South 180, West 270).</p>
+                        </div>
+                        <div class="col-9">
+                            <p><img src="rsc/example1.svg" width="100%"></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <p>Due to the innacuracy of your location (the whole grid cell) the search area above, in green, is quite large. You can provide your location more accurately using the precision options that appear after submitting your first four parameters (as shown on the right).</p>
+                        </div>
+
+                        <div class="col-6">
+                            <p><img src="rsc/accuracy.svg"></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <p>The results provide a much smaller area with the added location accuracy. Note that for this improved accuracy search a smaller uncertainty is added to the directions to provide an area rather than a point.</p>
+                        </div>
+                        <div class="col-9">
+                            <p><img src="rsc/example2.svg" width="100%"></p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-6">
-                    <h2>Basic inputs</h2>
+                    <h2 id="letsgo">Basic inputs</h2>
                     <p>Provide the grid coordinate locations and headings from two perspectives.</p>
                     <form class="row g-3 needs-validation" novalidate>
                         <div class="col-md-6">
