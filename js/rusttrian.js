@@ -349,9 +349,10 @@ TR.generateGrids = function(bounds) {
 
     let grids = [];
     // generate grid coordinates
-    for (let x = bounds.xmin; x < bounds.xmax; x+=grid_size) {
-        for (let y = bounds.ymin; y < bounds.ymax; y+=grid_size) {
+    for (let x = Math.floor(bounds.xmin/grid_size) * grid_size; x < Math.ceil(bounds.xmax/grid_size) * grid_size; x+=grid_size) {
+        for (let y = Math.floor(bounds.ymin/grid_size) * grid_size; y < Math.ceil(bounds.ymax/grid_size) * grid_size; y+=grid_size) {
             let grid_letter = String.fromCharCode((x/grid_size) + 97).toUpperCase();
+            if (x < 0) { grid_letter = ""; }
             // handle if x/grid_size > 26 (or letter should be greater than Z (e.g., AB)
             if ((x/grid_size) > 25) {
                 grid_letter = 'A' + String.fromCharCode((x/grid_size) - 26 + 97).toUpperCase();
