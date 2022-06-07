@@ -5,3 +5,7 @@ nav {
 h2 {
     margin-top: 30px;
 }
+
+#figure {
+    max-height: 600px;
+}
