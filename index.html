@@ -16,20 +16,21 @@
 
         <link href="css/rusttrian.css" rel="stylesheet">
     </head>
-    
+
     <body class="bg-light">
         <nav class="navbar navbar-dark bg-dark">
-          <div class="container">
-            <span class="navbar-brand mb-0 h1">Rusttrian</span>
-          </div>
+            <div class="container">
+                <span class="navbar-brand mb-0 h1">Rusttrian</span>
+            </div>
         </nav>
         <div class="container pb-5">
             <div class="row">
                 <div class="col-12">
                     <h1>Triangulate locations using two perspectives</h1>
-                    <p>Estimate the location or area of a distant feature by providing observation locations and feature directions.</p>
+                    <p>Estimate the location or area of a distant feature by providing two observation locations and feature directions.</p>
                     <p>See below for the instructions and the tool.</p>
-                    <p>Already know what you're doing? <a href="#letsgo">Let's go!</a></o>
+                    <p>Already know what you're doing? <a href="#letsgo">Let's go!</a></p>
+                    <p>Want to learn more about <a href="#triangulation">triangulation</a>?</p>
                 </div>
 
                 <div class="col-12">
@@ -37,18 +38,24 @@
 
                     <div class="row">
                         <div class="col-12">
-                            <p><strong>The situation.</strong> You and a friend, that is located at some distance from yourself, observe a feature or sound, such as a supply-drop parachuting down or a particular sound. 
-                            It's quite far and will likely either stop being visible or audible before you reach it. In the examples above this means the air drop will land in the forest or the sound will stop before your reach it.
-                            You're likely to underestimate it's distance and landing location due to this.
-                            By <strong>triangulating</strong> the location with your friend's help however, you'll be able to get a good estimate of the distance and location of the feauture.</p>
+                            <p><strong>The situation.</strong> You and a friend, that is located at some distance from yourself but which you can communicate with, are located in the forest.
+                            You both report seeing smoke from a fire at several kilometres from yourselves. You would like to know the location of it and make sure it is put out as it's dry season.
+                            As this is a forested region and the fire may go out, or you simply won't see it once you begin walking through the dense forest, it may <b>not</b> be possible to view the objective again as you approach it. 
+                            Simply walking towards where you think it may be is a bad idea. You're likely to underestimate it's distance as well as lose your orientation (the direction of the objective).
+                            </p>
+
+                            <p>
+                            Luckily both of have good compasses and the same grid map.
+                            By using both your observations you can <strong>triangulate</strong> the location of the objective.
+                            <strong>Triangulation allows you the determining the location of a third point by using the known location of two points and their respective directions to the third.</strong></p>
                             <img class="float-end ms-4 mb-4" src="rsc/example1.svg" width="50%">
                             <p><strong>Determine your locations.</strong> Using a map with grid cells available, as shown adjacent, note the location (e.g., C1, E5) of each observer.</p>
-                            <p><strong>Determine directions of feature.</strong> Then for each observer indicate the compass direction of the feature or sound you wish to locate (e.g., North is 0, East 90, South 180, West 270).</p>
+                            <p><strong>Determine directions of feature.</strong> Then for each observer indicate the compass direction of the objective (e.g., North is 0, East 90, South 180, West 270).</p>
                             <p>Click <strong>Triangulate</strong> and an estimated area of where the feature is located will be shown.</p>
                         </div>
                         <div class="col-12">
                             <img class="float-start mb-4 me-4" src="rsc/accuracy.svg">
-                            <p><strong>Improve accuracy.</strong> The size of the area the feature is located in, in green above, is due to observation areas being large (the whole grid cell). You can provide your location more accurately using the precision options that will appear after submitting your first four parameters (as shown to the left).</p>
+                            <p><strong>Improve accuracy.</strong> The size of the area the feature is located likely in, shown in green above, is due to observation areas being large (the whole grid cell). You can provide your location more accurately using the precision options that will appear after submitting your first four parameters (as shown to the left).</p>
                         </div>
 
                         <div class="col-12">
@@ -120,7 +127,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2>Results</h2>
-<style>
+                    <style>
 .pointer {
     cursor: pointer;
 }
@@ -132,23 +139,128 @@
     opacity: 1;
 }
 
-</style>
-                    <p id="results"></p>
+                    </style>
+                    <p id="results">Submit inputs above to see resulting map.</p>
+                </div>
+            </div>
+            <hr>
+            <div id="triangulation" class="row">
+                <div class="col-md-12">
+                    <h2>How to triangulate</h2>
+                    <p>Given two locations, with coordinates and headings (compass directions in degrees), how can you triangulate another point?</p>
+                    <p>Let us define the two locations <i>L<sub>1</sub></i> and <i>L<sub>2</sub></i> as having the following <i>x</i> and <i>y</i> values from a cartesian coordinate system:
+                    </p>
+                    <ul>
+                        <li>L<sub>1</sub>: x<sub>1</sub>, y<sub>1</sub></li>
+                        <li>L<sub>2</sub>: x<sub>2</sub>, y<sub>2</sub></li>
+                    </ul>
+                    <p>At each location the following compass heading readings are taken:</p>
+                    <ul>
+                        <li>L<sub>1</sub>: h<sub>1</sub></li>
+                        <li>L<sub>2</sub>: h<sub>2</sub></li>
+                    </ul>
+
+                    <p>To triangulate a location we must convert these locations and compass headings into linear equations.</p>
+
+                    <h3>A line represented as an equation</h3>
+                    <p>We must convert and reorder the above components to create the equations for each line. A line (in slope intercept form) takes the form <i><strong>y = mx + b</strong></i> where:</p>
+                    <ul>
+                        <li><b>m</b> is the slope, the angle or steepness of the line</li>
+                        <li><b>b</b> is the y intercept, where the line touches the vertical y-axis when x=0</li>
+                    </ul>
+                    <p><img width="400px" src="rsc/lineequation.svg"></p>
+
+                    <h4>Determining slope from compass heading</h4>
+                    However we must first convert the compass readings to a slope.</p>
+                    <p><img src="rsc/triangulation.svg" title="Calculating slope" width="100%"></p>
+                    <p>The slopes can now be calculating by simply getting the inverse of the tangent:</p>
+                    <p class="text-center">
+                    <strong>1/tan(heading)</strong><br>
+                    <i>Equation 1: Calculating slope.</i>
+                    </p>
+                    <p>If your tan function expects radians rather than degrees you can integrate the conversion:</p>
+                    <p class="text-center">
+                    <strong>1/tan(heading/180*&pi;)</strong> where &pi;&approx;3.1415<br>
+                    <i>Equation 2: Calculating slope and conversion to radians.</i>
+                    </p>
+                    <p>This now provides us with the slopes for each line.</p>
+                    <ul>
+                        <li>L<sub>1</sub>: m<sub>1</sub> = 1/tan(h<sub>1</sub>)</li>
+                        <li>L<sub>2</sub>: m<sub>2</sub> = 1/tan(h<sub>2</sub>)</li>
+                    </ul>
+
+                    <h4>Determining y-intercept</h4>
+                    <p>We now know the slope but need to know how to position the line on the map or graph.</p>
+                    <p>Given that we are aiming for a slope intercept form of the linear equation <i><strong>y = mx + b</strong></i> we can simply reorder the equation by isolating <i><b>b</b></i> to:
+                    <p class="text-center">
+                    <strong>b = y - mx</strong><br>
+                    <i>Equation 3: Solving for the y-intercept.</i>
+                    </p>
+
+                    <p>As we know the coordinates (x, y) and now the slope for each location, we can solve for b.</p>
+                    <ul>
+                        <li>L<sub>1</sub>: y<sub>1</sub> - m<sub>1</sub>x<sub>1</sub></li>
+                        <li>L<sub>2</sub>: y<sub>2</sub> - m<sub>2</sub>x<sub>2</sub></li>
+                    </ul>
+
+                    <p>Resulting in knowning the slope and intercepts for both lines and linear equations:</p>
+                    <ul>
+                        <li>L<sub>1</sub>: y<sub>1</sub> = m<sub>1</sub>x<sub>1</sub> + b<sub>1</sub></li>
+                        <li>L<sub>2</sub>: y<sub>2</sub> = m<sub>2</sub>x<sub>2</sub> + b<sub>2</sub></li>
+                    </ul>
+
+                    <h3>Calculating the intercept of two lines</h3>
+                    <p>Given both linear equations it is possible to solve their intercept.</p>
+                    <p>Where the two lines intercept they have the same x and y values. We can solve for x<sub>i</sub>, at the intercept:</p>
+                    <p class="text-center">
+                    <strong>
+                        y<sub>1</sub> = y<sub>2</sub><br>
+                        m<sub>1</sub>x<sub>i</sub> + b<sub>1</sub> = m<sub>2</sub>x<sub>i</sub> + b<sub>2</sub><br>
+                        m<sub>1</sub>x<sub>i</sub> - m<sub>2</sub>x<sub>i</sub> = b<sub>2</sub> - b<sub>1</sub><br>
+                        x<sub>i</sub>(m<sub>1</sub> - m<sub>2</sub>) = b<sub>2</sub> - b<sub>1</sub><br>
+                        x<sub>i</sub> = (b<sub>2</sub> - b<sub>1</sub>) / (m<sub>1</sub> - m<sub>2</sub>) <br>
+                    </strong><br>
+                    <i>Equation 4: Solving the x coordinate of the intercept, x<sub>i</sub>.</i>
+                    </p>
+
+                    <p>And for the y coordinate intercept, y<sub>i</sub>, we need only to substitute into either of the linear equations, for example within the first:</p>
+
+                    <p class="text-center">
+                    <strong>
+                        y<sub>i</sub> = m<sub>1</sub>x<sub>i</sub> + b<sub>1</sub><br>
+                        y<sub>i</sub> = m<sub>1</sub>(b<sub>2</sub> - b<sub>1</sub>) / (m<sub>1</sub> - m<sub>2</sub>) + b<sub>1</sub><br>
+                    </strong>
+                    <i>Equation 5: Solving the y coordinate of the intercept, y<sub>i</sub>.</i>
+                    </p>
+
+                    <p>Equations 4 and 5 allow solving the interception location of both linear equations. In practice however, there's error, making compass readings and calculated intercepts unrealistic. The amount of error will depend on on a variety of factors, such as compass reading error, compass error (e.g. due to metal nearby), and magnetic declination.
+
+                    <h3>Limitations</h3>
+                    <p>It should be noted that the above doesn't always function. When lines are parallel, vertical or horizontal, some additional or alternative steps need to be taken.</p>
+                    <p>Further, in some cases, unexpected results can occur if the inputs are wrong either from poor accuracy or data entry. For example, let's say two observers note the location of an objective but their compass readings have too much error, they may get a result showing the triangulated location in the opposite direction than expected. See below.</p>
+                    <p><img src="rsc/unexpected.svg" title="Unexpected results from bad compass readings" width="100%"></p>
+
+                    <h3>Compensating for error</h3>
+                    <p>To create areas of uncertainty rather than points of intersection, Rusttrian simply repeats the above process with readings that are +1 and -1 degrees from every compass heading reading. This creates a multitude of intersection points, particularly for the grid (although the grid does not add error to compass headings as there is already large uncertainty from the grid). The outwards-most points are selected using the <a href="https://en.wikipedia.org/wiki/Quickhull">Quickhull</a> algorithm.</p>
+                    <p>This process creates intersection areas, or areas of uncertainty, as shown below.</p>
+                    <p><img src="rsc/intersection_areas.svg" title="Intersection areas" width="100%"></p>
+
+
                 </div>
             </div>
 
             <!--
-            <div class="row">
+                <div class="row">
                 <div class="col-md-12">
-                    <h2>Test</h2>
-                    <p>Results in console</p>
-                    <ol>
-                        <li><a href="#/" onclick="TR.test(1)">Grid coordinate to metric bounds</a></li>
-                        <li><a href="#/" onclick="TR.test(2)">Test triangulation</a></li>
-                        <li></li>
-                    </ol>
+                <h2>Test</h2>
+                <p>Results in console</p>
+                <ol>
+                <li><a href="#/" onclick="TR.test(1)">Grid coordinate to metric bounds</a></li>
+                <li><a href="#/" onclick="TR.test(2)">Test triangulation</a></li>
+                <li></li>
+                </ol>
                 </div>
-            </div>
+                </div>
             -->
         </div>
         <footer class="container-fluid mt-5 pb-5 bg-dark text-light">
@@ -158,14 +270,14 @@
                         <h3 class="mb-4">By</h3>
                         <p>Cyrille Médard de Chardon</p>
                         <p>Want to <a href="https://github.com/serialc/rusttrian">contribute</a>?</p>
-                  </div>
+                    </div>
 
-                  <div class="col-sm-6 col-lg-6 mt-5">
-                    <h3 class="mb-4">Using</h3>
-                    <a href="https://getbootstrap.com/">Bootstrap</a><br>
-                    <a href="https://d3js.org/">D3.js</a><br>
-                    <a href="https://github.com/claytongulick/quickhull">Clayton Gulick's QuickHull</a><br>
-                  </div>
+                    <div class="col-sm-6 col-lg-6 mt-5">
+                        <h3 class="mb-4">Using</h3>
+                        <a href="https://getbootstrap.com/">Bootstrap</a><br>
+                        <a href="https://d3js.org/">D3.js</a><br>
+                        <a href="https://github.com/claytongulick/quickhull">Clayton Gulick's QuickHull</a><br>
+                    </div>
                 </div>
             </div>
         </footer>
