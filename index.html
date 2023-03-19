@@ -171,55 +171,59 @@
                     <p><img width="400px" src="rsc/lineequation.svg"></p>
 
                     <h4>Determining slope from compass heading</h4>
-                    However we must first convert the compass readings to a slope.</p>
+                    Before converting a compass reading to a slope, let's be clear about what is meant by slope.</p>
                     <p><img src="rsc/triangulation.svg" title="Calculating slope" width="100%"></p>
-                    <p>The slopes can now be calculating by simply getting the inverse of the tangent:</p>
+                    <p>Slopes can now be calculating by simply getting the inverse of the tangent:</p>
                     <p class="text-center">
                     <strong>1/tan(heading)</strong><br>
                     <i>Equation 1: Calculating slope.</i>
                     </p>
-                    <p>If your tan function expects radians rather than degrees you can integrate the conversion:</p>
+                    <p>If your Tangent function (tan) expects radians rather than degrees you can integrate the conversion:</p>
                     <p class="text-center">
                     <strong>1/tan(heading/180*&pi;)</strong> where &pi;&approx;3.1415<br>
                     <i>Equation 2: Calculating slope and conversion to radians.</i>
                     </p>
-                    <p>This now provides us with the slopes for each line.</p>
+
+                    <p>This can now provide you the slope for each line.</p>
                     <ul>
                         <li>L<sub>1</sub>: m<sub>1</sub> = 1/tan(h<sub>1</sub>)</li>
                         <li>L<sub>2</sub>: m<sub>2</sub> = 1/tan(h<sub>2</sub>)</li>
                     </ul>
+                    <p>To create the linear equation the y-intercepts are still missing: b<sub>1</sub> and b<sub>2</sub>.
 
                     <h4>Determining y-intercept</h4>
                     <p>We now know the slope but need to know how to position the line on the map or graph.</p>
-                    <p>Given that we are aiming for a slope intercept form of the linear equation <i><strong>y = mx + b</strong></i> we can simply reorder the equation by isolating <i><b>b</b></i> to:
+                    <p>Given that we are aiming for a slope intercept form of the linear equation (<i><strong>y = mx + b</strong></i>) we can simply reorder the equation by isolating <i><b>b</b></i> at the location of the measurment:
                     <p class="text-center">
                     <strong>b = y - mx</strong><br>
-                    <i>Equation 3: Solving for the y-intercept.</i>
+                    <i>Equation 3: Solving for the y-intercepts for both L<sub>1</sub> and L<sub>2</sub>.</i>
                     </p>
 
                     <p>As we know the coordinates (x, y) and now the slope for each location, we can solve for b.</p>
                     <ul>
-                        <li>L<sub>1</sub>: y<sub>1</sub> - m<sub>1</sub>x<sub>1</sub></li>
-                        <li>L<sub>2</sub>: y<sub>2</sub> - m<sub>2</sub>x<sub>2</sub></li>
+                        <li>L<sub>1</sub>: b<sub>1</sub> = y<sub>1</sub> - m<sub>1</sub>x<sub>1</sub></li>
+                        <li>L<sub>2</sub>: b<sub>2</sub> = y<sub>2</sub> - m<sub>2</sub>x<sub>2</sub></li>
                     </ul>
 
                     <p>Resulting in knowning the slope and intercepts for both lines and linear equations:</p>
                     <ul>
-                        <li>L<sub>1</sub>: y<sub>1</sub> = m<sub>1</sub>x<sub>1</sub> + b<sub>1</sub></li>
-                        <li>L<sub>2</sub>: y<sub>2</sub> = m<sub>2</sub>x<sub>2</sub> + b<sub>2</sub></li>
+                        <li>L<sub>1</sub>: y = m<sub>1</sub>x + b<sub>1</sub></li>
+                        <li>L<sub>2</sub>: y = m<sub>2</sub>x + b<sub>2</sub></li>
                     </ul>
 
+                    <p>Now that both linear equations are known, it is time to solve for where they intercept.</p>
+
                     <h3>Calculating the intercept of two lines</h3>
-                    <p>Given both linear equations it is possible to solve their intercept.</p>
+                    <p>Given two linear equations it is possible to solve their intercept.</p>
                     <p>Where the two lines intercept they have the same x and y values. We can solve for x<sub>i</sub>, at the intercept:</p>
                     <p class="text-center">
                     <strong>
-                        y<sub>1</sub> = y<sub>2</sub><br>
-                        m<sub>1</sub>x<sub>i</sub> + b<sub>1</sub> = m<sub>2</sub>x<sub>i</sub> + b<sub>2</sub><br>
-                        m<sub>1</sub>x<sub>i</sub> - m<sub>2</sub>x<sub>i</sub> = b<sub>2</sub> - b<sub>1</sub><br>
-                        x<sub>i</sub>(m<sub>1</sub> - m<sub>2</sub>) = b<sub>2</sub> - b<sub>1</sub><br>
-                        x<sub>i</sub> = (b<sub>2</sub> - b<sub>1</sub>) / (m<sub>1</sub> - m<sub>2</sub>) <br>
-                    </strong><br>
+                        y<sub>1</sub> = y<sub>2</sub>,<br>
+                        m<sub>1</sub>x<sub>i</sub> + b<sub>1</sub> = m<sub>2</sub>x<sub>i</sub> + b<sub>2</sub>,<br>
+                        m<sub>1</sub>x<sub>i</sub> - m<sub>2</sub>x<sub>i</sub> = b<sub>2</sub> - b<sub>1</sub>,<br>
+                        x<sub>i</sub>(m<sub>1</sub> - m<sub>2</sub>) = b<sub>2</sub> - b<sub>1</sub>,<br>
+                        x<sub>i</sub> = (b<sub>2</sub> - b<sub>1</sub>) / (m<sub>1</sub> - m<sub>2</sub>),<br>
+                    </strong>
                     <i>Equation 4: Solving the x coordinate of the intercept, x<sub>i</sub>.</i>
                     </p>
 
@@ -233,7 +237,7 @@
                     <i>Equation 5: Solving the y coordinate of the intercept, y<sub>i</sub>.</i>
                     </p>
 
-                    <p>Equations 4 and 5 allow solving the interception location of both linear equations. In practice however, there's error, making compass readings and calculated intercepts unrealistic. The amount of error will depend on on a variety of factors, such as compass reading error, compass error (e.g. due to metal nearby), and magnetic declination.
+                    <p>Equations 4 and 5 allow solving the interception location of both linear equations. In practice however, there's error, making compass readings and calculated intercepts unrealistic. The amount of error will depend on a variety of factors, such as compass reading error, compass error (e.g. due to metal nearby), and magnetic declination.
 
                     <h3>Limitations</h3>
                     <p>It should be noted that the above doesn't always function. When lines are parallel, vertical or horizontal, some additional or alternative steps need to be taken.</p>
