@@ -239,6 +239,15 @@
 
                     <p>Equations 4 and 5 allow solving the interception location of both linear equations. In practice however, there's error, making compass readings and calculated intercepts unrealistic. The amount of error will depend on a variety of factors, such as compass reading error, compass error (e.g. due to metal nearby), and magnetic declination.
 
+                    <h3>Calculating distance</h3>
+                    <p>A good application of triangulation is not only determining the location of an objective, but also its distance.</p>
+                    <p>Once x<sub>i</sub> and y<sub>i</sub> are determined it's a simple process to determine the distance between either location (L<sub>1</sub>, L<sub>2</sub>) and the objective using pythagorus' formula.<p>
+                    <p>The distance, d<sub>1</sub>, between L<sub>1</sub> and the objective can be determined by solving:<br>
+                    <strong>d<sub>1</sub><sup>2</sup> =
+                        (x<sub>i</sub> - x<sub>1</sub>)<sup>2</sup> +
+                        (y<sub>i</sub> - y<sub>1</sub>)<sup>2</sup>
+                    </strong></p>
+
                     <h3>Limitations</h3>
                     <p>It should be noted that the above doesn't always function. When lines are parallel, vertical or horizontal, some additional or alternative steps need to be taken.</p>
                     <p>Further, in some cases, unexpected results can occur if the inputs are wrong either from poor accuracy or data entry. For example, let's say two observers note the location of an objective but their compass readings have too much error, they may get a result showing the triangulated location in the opposite direction than expected. See below.</p>
