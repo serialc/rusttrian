@@ -44,11 +44,11 @@
                             <p><strong>The situation.</strong> You and a friend, that is located at some distance from yourself but which you can communicate with, are located in the forest.
                             You both report seeing smoke from a fire at several kilometres from yourselves. You would like to know the location of it and make sure it is put out as it's dry season.
                             As this is a forested region and the fire may go out, or you simply won't see it once you begin walking through the dense forest, it may <b>not</b> be possible to view the objective again as you approach it. 
-                            Simply walking towards where you think it may be is a bad idea. You're likely to underestimate it's distance as well as lose your orientation (the direction of the objective).
+                            Simply walking towards where you think it may be is a bad idea. You're likely to underestimate its distance as well as lose your orientation (the direction of the objective).
                             </p>
 
                             <p>
-                            Luckily both of have good compasses and the same grid map.
+                            Luckily both of you have good compasses and the same grid map.
                             By using both your observations you can <strong>triangulate</strong> the location of the objective.
                             <strong>Triangulation allows you the determining the location of a third point by using the known location of two points and their respective directions to the third.</strong></p>
                             <img class="float-end ms-4 mb-4" src="rsc/example1.svg" width="50%">
@@ -242,6 +242,15 @@
                     </p>
 
                     <p>Equations 4 and 5 allow solving the interception location of both linear equations. In practice however, there's error, making compass readings and calculated intercepts unrealistic. The amount of error will depend on a variety of factors, such as compass reading error, compass error (e.g. due to metal nearby), and magnetic declination.
+
+                    <h3>Calculating distance</h3>
+                    <p>A good application of triangulation is not only determining the location of an objective, but also its distance.</p>
+                    <p>Once x<sub>i</sub> and y<sub>i</sub> are determined it's a simple process to determine the distance between either location (L<sub>1</sub>, L<sub>2</sub>) and the objective using pythagorus' formula.<p>
+                    <p>The distance, d<sub>1</sub>, between L<sub>1</sub> and the objective can be determined by solving:<br>
+                    <strong>d<sub>1</sub><sup>2</sup> =
+                        (x<sub>i</sub> - x<sub>1</sub>)<sup>2</sup> +
+                        (y<sub>i</sub> - y<sub>1</sub>)<sup>2</sup>
+                    </strong></p>
 
                     <h3>Limitations</h3>
                     <p>It should be noted that the above doesn't always function. When lines are parallel, vertical or horizontal, some additional or alternative steps need to be taken.</p>

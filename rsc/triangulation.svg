@@ -3,8 +3,8 @@
 
 <svg
    width="100mm"
-   height="111.93974mm"
-   viewBox="0 0 100 111.93974"
+   height="153.3186mm"
+   viewBox="0 0 100 153.3186"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (1:1.2.2+202212051551+b0a8486541)"
@@ -25,18 +25,24 @@
      showgrid="false"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#292929"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="-16.970563"
-     inkscape:cy="307.2379"
-     inkscape:window-width="2560"
-     inkscape:window-height="1376"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="148.13887"
+     inkscape:cy="518.83959"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="true" />
   <defs
      id="defs2">
+    <rect
+       x="118.59887"
+       y="482.85126"
+       width="98.00296"
+       height="47.875656"
+       id="rect7063" />
     <rect
        x="362.38281"
        y="111.95508"
@@ -64,21 +70,27 @@
     <rect
        x="31.290859"
        y="-49.533382"
-       width="316.50168"
-       height="33.678841"
+       width="356.1358"
+       height="98.042"
        id="rect14857" />
+    <rect
+       x="118.59887"
+       y="482.85126"
+       width="98.831039"
+       height="119.12392"
+       id="rect7063-7" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.705645;paint-order:stroke fill markers;stop-color:#000000"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.825713;paint-order:stroke fill markers;stop-color:#000000"
        id="rect1259"
-       width="99.294357"
-       height="111.2341"
-       x="0.35282201"
-       y="0.35282201"
+       width="99.174286"
+       height="152.49289"
+       x="0.41285622"
+       y="0.41285622"
        inkscape:label="bg" />
     <text
        xml:space="preserve"
@@ -323,12 +335,12 @@
          style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3634);display:inline"><tspan
            x="31.291016"
            y="-42.455078"
-           id="tspan18931"><tspan
+           id="tspan8880"><tspan
    style="font-weight:bold"
-   id="tspan18929">Slope (m)</tspan> is a value that describes </tspan><tspan
+   id="tspan8878">Slope (m)</tspan> is a value that describes </tspan><tspan
            x="31.291016"
            y="-32.455078"
-           id="tspan18933">the steepness or flatness of a line.</tspan></text>
+           id="tspan8882">the steepness or flatness of a line.</tspan></text>
     </g>
     <g
        id="g9920"
@@ -430,7 +442,7 @@
              id="text9890"><tspan
                x="36.886051"
                y="15.125558"
-               id="tspan18935">m =          = tan(θ)</tspan></text>
+               id="tspan8884">m =          = tan(θ)</tspan></text>
         </g>
         <g
            id="g9910"
@@ -471,12 +483,24 @@
          style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9922);display:inline"><tspan
            x="31.291016"
            y="-42.455078"
-           id="tspan18939"><tspan
+           id="tspan8888"><tspan
    style="font-weight:bold"
-   id="tspan18937">Slope (m)</tspan> can also be calculated </tspan><tspan
+   id="tspan8886">Slope (m)</tspan> can also be calculated </tspan><tspan
            x="31.291016"
            y="-32.455078"
-           id="tspan18941">using an angle and trigonometry.</tspan></text>
+           id="tspan8890">using an angle and trigonometry.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="32.243523"
+         y="137.0441"
+         id="text5998"
+         transform="scale(-1,1)"><tspan
+           sodipodi:role="line"
+           id="tspan5996"
+           style="stroke-width:0.264583"
+           x="32.243523"
+           y="137.0441" /></text>
     </g>
     <text
        xml:space="preserve"
@@ -485,44 +509,65 @@
        style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9922-6-5);display:inline"><tspan
          x="31.291016"
          y="-42.455078"
-         id="tspan18943">Applying the same procedure to compass heading readings requires a small </tspan><tspan
+         id="tspan8892">Applying the same procedure to compass heading readings requires a small </tspan><tspan
          x="31.291016"
          y="-32.455078"
-         id="tspan18945">change as the measurements are not arranged in the same manner as above. </tspan><tspan
+         id="tspan8894">change as the measurements are not arranged in the same manner as above. </tspan><tspan
          x="31.291016"
          y="-22.455078"
-         id="tspan18951">We must calculate h<tspan
+         id="tspan8900">We must calculate h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan18947">1c</tspan> from h<tspan
+   id="tspan8896">1c</tspan> from h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan18949">1</tspan>.</tspan></text>
+   id="tspan8898">1</tspan>.</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-5.7956176,115.31828)"
        id="text14855"
-       style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect14857);display:inline"><tspan
-         x="31.291016"
-         y="-42.455078"
-         id="tspan18957">This process of calculating h<tspan
+       style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect14857);shape-padding:2.72131;display:inline"><tspan
+         x="34.011719"
+         y="-39.734375"
+         id="tspan8908">This process of calculating h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan18953">1c</tspan> from h<tspan
+   id="tspan8902">1c</tspan> from h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan18955">1</tspan> is not complex but unnecessary.
+   id="tspan8904">1</tspan> is not complex but <tspan
+   style="font-weight:bold"
+   id="tspan8906">unnecessary</tspan>.
 </tspan><tspan
-         x="31.291016"
-         y="-32.455078"
-         id="tspan18961">We can simply us h<tspan
+         x="34.011719"
+         y="-29.734375"
+         id="tspan8912">We can simply us h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan18959">1</tspan> in the calculation but then take the inverse of the </tspan><tspan
-         x="31.291016"
-         y="-22.455078"
-         id="tspan18969">resulting slope: <tspan
+   id="tspan8910">1</tspan> in the calculation but then take the inverse of the resulting slope: </tspan><tspan
+         x="34.011719"
+         y="-19.734375"
+         id="tspan8920"><tspan
    style="font-weight:bold"
-   id="tspan18963">m = 1/tan(h</tspan><tspan
+   id="tspan8914">m = 1/tan(h</tspan><tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan18965">1</tspan><tspan
+   id="tspan8916">1</tspan><tspan
    style="font-weight:bold"
-   id="tspan18967">) </tspan>= 1/tan(63) = 0.5</tspan></text>
+   id="tspan8918">) </tspan>= 1/tan(63) = 0.5
+</tspan><tspan
+         x="34.011719"
+         y="-9.734375"
+         id="tspan8922">
+</tspan><tspan
+         x="34.011719"
+         y="0.265625"
+         id="tspan8924">The reason for this is the following:
+</tspan><tspan
+         x="34.011719"
+         y="10.265625"
+         id="tspan8926">
+</tspan><tspan
+         x="34.011719"
+         y="20.265625"
+         id="tspan8928">The tangent rule uses the angle between the hypotenuse and adjacent sides and the </tspan><tspan
+         x="34.011719"
+         y="30.265625"
+         id="tspan8930">ratio of the opposite and adjacent sides.</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -674,12 +719,12 @@
        style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect17214);display:inline"><tspan
          x="362.38281"
          y="119.0332"
-         id="tspan18973">Here are some examples of <tspan
+         id="tspan8934">Here are some examples of <tspan
    style="font-weight:bold"
-   id="tspan18971">slope values</tspan> at 10 degree increments. Note that they </tspan><tspan
+   id="tspan8932">slope values</tspan> at 10 degree increments. Note that they </tspan><tspan
          x="362.38281"
          y="129.0332"
-         id="tspan18975">can be negative.</tspan></text>
+         id="tspan8936">can be negative.</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 45.410346,56.419039 h 8.113674 8.90335"
@@ -1027,6 +1072,331 @@
            style="stroke-width:0.264583"
            x="39.139458"
            y="39.359325">-5.67</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="7.7006087"
+       y="128.52533"
+       id="text5961"><tspan
+         sodipodi:role="line"
+         id="tspan5959"
+         style="stroke-width:0.264583"
+         x="7.7006087"
+         y="128.52533" /></text>
+    <g
+       id="g6783"
+       transform="translate(-5.0172053,-2.8459309)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 8.6973933,140.70958 H 26.397692 v -10.4806 z"
+         id="path3126" />
+      <path
+         id="path3739"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 13.437836,137.90258 a 5.5002785,5.5347943 0 0 1 0.759835,2.807" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="14.876838"
+         y="139.77611"
+         id="text12266-3"><tspan
+           sodipodi:role="line"
+           id="tspan12264-6"
+           style="stroke-width:0.264583"
+           x="14.876838"
+           y="139.77611">θ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-60.020912"
+         y="124.65675"
+         id="text6763"
+         transform="rotate(-30.6)"><tspan
+           sodipodi:role="line"
+           id="tspan6761"
+           style="font-size:2.11667px;stroke-width:0.264583"
+           x="-60.020912"
+           y="124.65675">hypotenuse</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="15.397737"
+         y="143.04872"
+         id="text6767"><tspan
+           sodipodi:role="line"
+           id="tspan6765"
+           style="font-size:2.11667px;stroke-width:0.264583"
+           x="15.397737"
+           y="143.04872">adjacent</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-140.03926"
+         y="28.567833"
+         id="text6771"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan6769"
+           style="font-size:2.11667px;stroke-width:0.264583"
+           x="-140.03926"
+           y="28.567833">opposite</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-3.8125417,2.2079065)"
+       id="text7061"
+       style="font-style:normal;font-weight:normal;font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7063);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="118.59961"
+         y="489.92969"
+         id="tspan8938">However the compass </tspan><tspan
+         x="118.59961"
+         y="499.92969"
+         id="tspan8940">readings above have </tspan><tspan
+         x="118.59961"
+         y="509.92969"
+         id="tspan8942">the following form.</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,40.401034,-3.5001946)"
+       id="text7061-5"
+       style="font-style:normal;font-weight:normal;font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7063-7);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="118.59961"
+         y="489.92969"
+         id="tspan8944">But the slope equation </tspan><tspan
+         x="118.59961"
+         y="499.92969"
+         id="tspan8946">requires the rise over </tspan><tspan
+         x="118.59961"
+         y="509.92969"
+         id="tspan8948">run, yet here the </tspan><tspan
+         x="118.59961"
+         y="519.92969"
+         id="tspan8950">tangent function will </tspan><tspan
+         x="118.59961"
+         y="529.92969"
+         id="tspan8952">take the run over rise. 
+</tspan><tspan
+         x="118.59961"
+         y="539.92969"
+         id="tspan8954">
+</tspan><tspan
+         x="118.59961"
+         y="549.92969"
+         id="tspan8956">This is inverted, and </tspan><tspan
+         x="118.59961"
+         y="559.92969"
+         id="tspan8958">why we therefore take </tspan><tspan
+         x="118.59961"
+         y="569.92969"
+         id="tspan8960">the inverse.</tspan></text>
+    <g
+       id="g7920">
+      <g
+         id="g7101"
+         transform="matrix(0,-1,-1,0,193.67891,199.71244)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 55.861994,136.73053 h 17.700299 v -10.4806 z"
+           id="path7067" />
+        <path
+           id="path7069"
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           d="m 60.602437,133.92353 a 5.5002785,5.5347943 0 0 1 0.759835,2.807" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="58.05381"
+         y="137.6633"
+         id="text7073"><tspan
+           sodipodi:role="line"
+           id="tspan7071"
+           style="stroke-width:0.264583"
+           x="58.05381"
+           y="137.6633">θ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-88.465866"
+         y="124.39584"
+         id="text7077"
+         transform="rotate(-59.4)"><tspan
+           sodipodi:role="line"
+           id="tspan7075"
+           style="font-size:2.11667px;stroke-width:0.264583"
+           x="-88.465866"
+           y="124.39584">hypotenuse</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="57.538349"
+         y="125.0687"
+         id="text7081"><tspan
+           sodipodi:role="line"
+           id="tspan7079"
+           style="font-size:2.11667px;stroke-width:0.264583"
+           x="57.538349"
+           y="125.0687">opposite</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-137.58862"
+         y="55.852577"
+         id="text7085"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan7083"
+           style="font-size:2.11667px;stroke-width:0.264583"
+           x="-137.58862"
+           y="55.852577">adjacent</tspan></text>
+    </g>
+    <g
+       id="g7891"
+       transform="translate(0,2.76545)">
+      <g
+         id="g7292"
+         transform="translate(-29.122576,131.352)">
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.590145"
+           y="13.136537"
+           id="text9878-6"><tspan
+             sodipodi:role="line"
+             id="tspan9876-2"
+             style="stroke-width:0.264583"
+             x="42.590145"
+             y="13.136537">opposite</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.778763"
+           y="16.108444"
+           id="text9882-9"><tspan
+             sodipodi:role="line"
+             id="tspan9880-1"
+             style="stroke-width:0.264583"
+             x="42.778763"
+             y="16.108444">adjacent</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.889609,14.038546 h 10.50544"
+           id="path9884-2" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:24.3313;display:inline;stroke-width:0.264583"
+         x="36.886051"
+         y="15.125558"
+         id="text9890-7"
+         transform="translate(-33.873986,130.93782)"><tspan
+           x="36.886051"
+           y="15.125558"
+           id="tspan8962">tan(θ) =                  = </tspan></text>
+      <g
+         id="g9886-0"
+         transform="translate(-15.36187,131.10709)">
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.590145"
+           y="13.665703"
+           id="text9878-9"><tspan
+             sodipodi:role="line"
+             id="tspan9876-3"
+             style="stroke-width:0.264583"
+             x="42.590145"
+             y="13.665703">rise</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.778763"
+           y="16.108444"
+           id="text9882-6"><tspan
+             sodipodi:role="line"
+             id="tspan9880-0"
+             style="stroke-width:0.264583"
+             x="42.778763"
+             y="16.108444">run</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.889609,14.30933 h 5.343988"
+           id="path9884-6" />
+      </g>
+    </g>
+    <g
+       id="g7907">
+      <g
+         id="g7292-2"
+         transform="translate(8.1263036,134.11745)">
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.590145"
+           y="13.136537"
+           id="text9878-6-6"><tspan
+             sodipodi:role="line"
+             id="tspan9876-2-1"
+             style="stroke-width:0.264583"
+             x="42.590145"
+             y="13.136537">opposite</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.778763"
+           y="16.108444"
+           id="text9882-9-8"><tspan
+             sodipodi:role="line"
+             id="tspan9880-1-7"
+             style="stroke-width:0.264583"
+             x="42.778763"
+             y="16.108444">adjacent</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.889609,14.038546 h 10.50544"
+           id="path9884-2-9" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:24.3313;display:inline;stroke-width:0.264583"
+         x="36.886051"
+         y="15.125558"
+         id="text9890-7-2"
+         transform="translate(3.3748936,133.70327)"><tspan
+           x="36.886051"
+           y="15.125558"
+           id="tspan8964">tan(θ) =                  = </tspan></text>
+      <g
+         id="g9886-0-0"
+         transform="translate(21.88701,133.87254)">
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.590145"
+           y="16.195795"
+           id="text9878-9-2"><tspan
+             sodipodi:role="line"
+             id="tspan9876-3-3"
+             style="stroke-width:0.264583"
+             x="42.590145"
+             y="16.195795">rise</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="42.778763"
+           y="13.791759"
+           id="text9882-6-7"><tspan
+             sodipodi:role="line"
+             id="tspan9880-0-5"
+             style="stroke-width:0.264583"
+             x="42.778763"
+             y="13.791759">run</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.889609,14.30933 h 5.343988"
+           id="path9884-6-9" />
+      </g>
     </g>
   </g>
 </svg>
