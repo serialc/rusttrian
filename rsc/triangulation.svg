@@ -26,14 +26,14 @@
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#292929"
      inkscape:zoom="2.8284272"
-     inkscape:cx="148.13887"
-     inkscape:cy="518.83959"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:cx="97.050403"
+     inkscape:cy="481.00938"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g9886-0-0"
      showguides="true" />
   <defs
      id="defs2">
@@ -335,12 +335,12 @@
          style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3634);display:inline"><tspan
            x="31.291016"
            y="-42.455078"
-           id="tspan8880"><tspan
+           id="tspan2809"><tspan
    style="font-weight:bold"
-   id="tspan8878">Slope (m)</tspan> is a value that describes </tspan><tspan
+   id="tspan2807">Slope (m)</tspan> is a value that describes </tspan><tspan
            x="31.291016"
            y="-32.455078"
-           id="tspan8882">the steepness or flatness of a line.</tspan></text>
+           id="tspan2811">the steepness or flatness of a line.</tspan></text>
     </g>
     <g
        id="g9920"
@@ -442,7 +442,7 @@
              id="text9890"><tspan
                x="36.886051"
                y="15.125558"
-               id="tspan8884">m =          = tan(θ)</tspan></text>
+               id="tspan2813">m =          = tan(θ)</tspan></text>
         </g>
         <g
            id="g9910"
@@ -483,12 +483,12 @@
          style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9922);display:inline"><tspan
            x="31.291016"
            y="-42.455078"
-           id="tspan8888"><tspan
+           id="tspan2817"><tspan
    style="font-weight:bold"
-   id="tspan8886">Slope (m)</tspan> can also be calculated </tspan><tspan
+   id="tspan2815">Slope (m)</tspan> can also be calculated </tspan><tspan
            x="31.291016"
            y="-32.455078"
-           id="tspan8890">using an angle and trigonometry.</tspan></text>
+           id="tspan2819">using an angle and trigonometry.</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -509,17 +509,17 @@
        style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9922-6-5);display:inline"><tspan
          x="31.291016"
          y="-42.455078"
-         id="tspan8892">Applying the same procedure to compass heading readings requires a small </tspan><tspan
+         id="tspan2821">Applying the same procedure to compass heading readings requires a small </tspan><tspan
          x="31.291016"
          y="-32.455078"
-         id="tspan8894">change as the measurements are not arranged in the same manner as above. </tspan><tspan
+         id="tspan2823">change as the measurements are not arranged in the same manner as above. </tspan><tspan
          x="31.291016"
          y="-22.455078"
-         id="tspan8900">We must calculate h<tspan
+         id="tspan2829">We must calculate h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan8896">1c</tspan> from h<tspan
+   id="tspan2825">1c</tspan> from h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan8898">1</tspan>.</tspan></text>
+   id="tspan2827">1</tspan>.</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-5.7956176,115.31828)"
@@ -527,47 +527,47 @@
        style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect14857);shape-padding:2.72131;display:inline"><tspan
          x="34.011719"
          y="-39.734375"
-         id="tspan8908">This process of calculating h<tspan
+         id="tspan2837">This process of calculating h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan8902">1c</tspan> from h<tspan
+   id="tspan2831">1c</tspan> from h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan8904">1</tspan> is not complex but <tspan
+   id="tspan2833">1</tspan> is not complex but <tspan
    style="font-weight:bold"
-   id="tspan8906">unnecessary</tspan>.
+   id="tspan2835">unnecessary</tspan>.
 </tspan><tspan
          x="34.011719"
          y="-29.734375"
-         id="tspan8912">We can simply us h<tspan
+         id="tspan2841">We can simply us h<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan8910">1</tspan> in the calculation but then take the inverse of the resulting slope: </tspan><tspan
+   id="tspan2839">1</tspan> in the calculation but then take the inverse of the resulting slope: </tspan><tspan
          x="34.011719"
          y="-19.734375"
-         id="tspan8920"><tspan
+         id="tspan2849"><tspan
    style="font-weight:bold"
-   id="tspan8914">m = 1/tan(h</tspan><tspan
+   id="tspan2843">m = 1/tan(h</tspan><tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan8916">1</tspan><tspan
+   id="tspan2845">1</tspan><tspan
    style="font-weight:bold"
-   id="tspan8918">) </tspan>= 1/tan(63) = 0.5
+   id="tspan2847">) </tspan>= 1/tan(63) = 0.5
 </tspan><tspan
          x="34.011719"
          y="-9.734375"
-         id="tspan8922">
+         id="tspan2851">
 </tspan><tspan
          x="34.011719"
          y="0.265625"
-         id="tspan8924">The reason for this is the following:
+         id="tspan2853">The reason for this is the following:
 </tspan><tspan
          x="34.011719"
          y="10.265625"
-         id="tspan8926">
+         id="tspan2855">
 </tspan><tspan
          x="34.011719"
          y="20.265625"
-         id="tspan8928">The tangent rule uses the angle between the hypotenuse and adjacent sides and the </tspan><tspan
+         id="tspan2857">The tangent rule uses the angle between the hypotenuse and adjacent sides and the </tspan><tspan
          x="34.011719"
          y="30.265625"
-         id="tspan8930">ratio of the opposite and adjacent sides.</tspan></text>
+         id="tspan2859">ratio of the opposite and adjacent sides.</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -719,12 +719,12 @@
        style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect17214);display:inline"><tspan
          x="362.38281"
          y="119.0332"
-         id="tspan8934">Here are some examples of <tspan
+         id="tspan2863">Here are some examples of <tspan
    style="font-weight:bold"
-   id="tspan8932">slope values</tspan> at 10 degree increments. Note that they </tspan><tspan
+   id="tspan2861">slope values</tspan> at 10 degree increments. Note that they </tspan><tspan
          x="362.38281"
          y="129.0332"
-         id="tspan8936">can be negative.</tspan></text>
+         id="tspan2865">can be negative.</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 45.410346,56.419039 h 8.113674 8.90335"
@@ -1149,13 +1149,13 @@
        style="font-style:normal;font-weight:normal;font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7063);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="118.59961"
          y="489.92969"
-         id="tspan8938">However the compass </tspan><tspan
+         id="tspan2867">However the compass </tspan><tspan
          x="118.59961"
          y="499.92969"
-         id="tspan8940">readings above have </tspan><tspan
+         id="tspan2869">readings above have </tspan><tspan
          x="118.59961"
          y="509.92969"
-         id="tspan8942">the following form.</tspan></text>
+         id="tspan2871">the following form.</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,40.401034,-3.5001946)"
@@ -1163,33 +1163,33 @@
        style="font-style:normal;font-weight:normal;font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7063-7);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="118.59961"
          y="489.92969"
-         id="tspan8944">But the slope equation </tspan><tspan
+         id="tspan2873">But the slope equation </tspan><tspan
          x="118.59961"
          y="499.92969"
-         id="tspan8946">requires the rise over </tspan><tspan
+         id="tspan2875">requires the rise over </tspan><tspan
          x="118.59961"
          y="509.92969"
-         id="tspan8948">run, yet here the </tspan><tspan
+         id="tspan2877">run, yet here the </tspan><tspan
          x="118.59961"
          y="519.92969"
-         id="tspan8950">tangent function will </tspan><tspan
+         id="tspan2879">tangent function will </tspan><tspan
          x="118.59961"
          y="529.92969"
-         id="tspan8952">take the run over rise. 
+         id="tspan2881">take the run over rise. 
 </tspan><tspan
          x="118.59961"
          y="539.92969"
-         id="tspan8954">
+         id="tspan2883">
 </tspan><tspan
          x="118.59961"
          y="549.92969"
-         id="tspan8956">This is inverted, and </tspan><tspan
+         id="tspan2885">This is inverted, and </tspan><tspan
          x="118.59961"
          y="559.92969"
-         id="tspan8958">why we therefore take </tspan><tspan
+         id="tspan2887">why we therefore take </tspan><tspan
          x="118.59961"
          y="569.92969"
-         id="tspan8960">the inverse.</tspan></text>
+         id="tspan2889">the inverse.</tspan></text>
     <g
        id="g7920">
       <g
@@ -1293,30 +1293,30 @@
          transform="translate(-33.873986,130.93782)"><tspan
            x="36.886051"
            y="15.125558"
-           id="tspan8962">tan(θ) =                  = </tspan></text>
+           id="tspan2891">tan(θ) =                  = </tspan></text>
       <g
          id="g9886-0"
          transform="translate(-15.36187,131.10709)">
         <text
            xml:space="preserve"
-           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583;fill:#d95f02;fill-opacity:1"
            x="42.590145"
            y="13.665703"
            id="text9878-9"><tspan
              sodipodi:role="line"
              id="tspan9876-3"
-             style="stroke-width:0.264583"
+             style="stroke-width:0.264583;fill:#d95f02;fill-opacity:1"
              x="42.590145"
              y="13.665703">rise</tspan></text>
         <text
            xml:space="preserve"
-           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583;fill:#7570b3;fill-opacity:1"
            x="42.778763"
            y="16.108444"
            id="text9882-6"><tspan
              sodipodi:role="line"
              id="tspan9880-0"
-             style="stroke-width:0.264583"
+             style="stroke-width:0.264583;fill:#7570b3;fill-opacity:1"
              x="42.778763"
              y="16.108444">run</tspan></text>
         <path
@@ -1366,30 +1366,30 @@
          transform="translate(3.3748936,133.70327)"><tspan
            x="36.886051"
            y="15.125558"
-           id="tspan8964">tan(θ) =                  = </tspan></text>
+           id="tspan2893">tan(θ) =                  = </tspan></text>
       <g
          id="g9886-0-0"
          transform="translate(21.88701,133.87254)">
         <text
            xml:space="preserve"
-           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583;fill:#d95f02;fill-opacity:1"
            x="42.590145"
            y="16.195795"
            id="text9878-9-2"><tspan
              sodipodi:role="line"
              id="tspan9876-3-3"
-             style="stroke-width:0.264583"
+             style="stroke-width:0.264583;fill:#d95f02;fill-opacity:1"
              x="42.590145"
              y="16.195795">rise</tspan></text>
         <text
            xml:space="preserve"
-           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583;fill:#7570b3;fill-opacity:1"
            x="42.778763"
            y="13.791759"
            id="text9882-6-7"><tspan
              sodipodi:role="line"
              id="tspan9880-0-5"
-             style="stroke-width:0.264583"
+             style="stroke-width:0.264583;fill:#7570b3;fill-opacity:1"
              x="42.778763"
              y="13.791759">run</tspan></text>
         <path
