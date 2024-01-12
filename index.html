@@ -41,31 +41,42 @@
 
                     <div class="row">
                         <div class="col-12">
-                            <p><strong>The situation.</strong> You and a friend, that is located at some distance from yourself but which you can communicate with, are located in the forest.
-                            You both report seeing smoke from a fire at several kilometres from yourselves. You would like to know the location of it and make sure it is put out as it's dry season.
-                            As this is a forested region and the fire may go out, or you simply won't see it once you begin walking through the dense forest, it may <b>not</b> be possible to view the objective again as you approach it. 
+                            <p><strong>The situation.</strong> You and a friend are both on separate little hills surrounded by forests. Your friend is at some distance from you but able to communicate by radio.
+                            You both see your expected supplies be air-dropped into the forest.
+                            As this is a forested region and the supply-drop will be hidden once in lands in the forest. It will <b>not</b> be possible to view the location again. 
                             Simply walking towards where you think it may be is a bad idea. You're likely to underestimate its distance as well as lose your orientation (the direction of the objective).
                             </p>
 
                             <p>
                             Luckily both of you have good compasses and the same grid map.
-                            By using both your observations you can <strong>triangulate</strong> the location of the objective.
+                            By using both your observations you can <strong>triangulate</strong> the location of the objective on the map.
                             <strong>Triangulation allows you the determining the location of a third point by using the known location of two points and their respective directions to the third.</strong></p>
+
+
+                            <p>It is also possible to determine your location on a map by getting the compass bearings of two known points relative to the observer. This isn't covered here but should be fairly straight-forward to determine.</p>
+
                             <img class="float-end ms-4 mb-4" src="rsc/example1.svg" width="50%">
-                            <p><strong>Determine your locations.</strong> Using a map with grid cells available, as shown adjacent, note the location (e.g., C1, E5) of each observer.</p>
-                            <p><strong>Determine directions of feature.</strong> Then for each observer indicate the compass direction of the objective (e.g., North is 0, East 90, South 180, West 270).</p>
-                            <p>Click <strong>Triangulate</strong> and an estimated area of where the feature is located will be shown.</p>
+                            <p><strong>To perform triangulation</strong> you need to know two points of information at two separate locations, as shown in the adjacent figure:
+                            <ul>
+                                <li>Observer location (orange boxes), and</li>
+                                <li>the compass bearing (direction - shown in grey) of the desired feature from that location.</li>
+                            </ul>
+                            </p>
+
+                            <p><strong>To determine observer location:</strong> Using a map, in this case with grid cells, note the location (e.g., C1, E5) of each observer.</p>
+                            <p><strong>To determine feature directions:</strong> For each observer indicate the compass direction of the objective (e.g., North is 0, East 90, South 180, West 270).</p>
+                            <p>On a grid map you could simply draw in this information as shown in the figure. Using the Rusttrian tool just enter the information and click <strong>Triangulate</strong> to calculate an estimated area of where the observed feature is located.</p>
                         </div>
                         <div class="col-12">
                             <img class="float-start mb-4 me-4" src="rsc/accuracy.svg">
-                            <p><strong>Improve accuracy.</strong> The size of the area the feature is located likely in, shown in green above, is due to observation areas being large (the whole grid cell). You can provide your location more accurately using the precision options that will appear after submitting your first four parameters (as shown to the left).</p>
+                            <p><strong>Improving the accuracy.</strong> The large size of the area the feature is estimated to be located within, shown in green in the figure above, is due to observations locations being identified as rather large areas (the whole grid cell) rather than points. You can provide your location more accurately using the precision options that appear after submitting the first four parameters (as shown to the left).</p>
                         </div>
 
                         <div class="col-12">
                             <img class="float-end ms-4 mb-4" src="rsc/example2.svg" width="50%">
                             <p><strong>The results.</strong> The estimation area is now much smaller than before thanks to the added accuracy of observation locations.</p>
                             <p>Note that for this improved accuracy method a small uncertainty is added to the compass directions to provide an area rather than a single point. Poor compass readings means that the feature may be located outside the resulting estimation area.</p>
-                            <p>Now try it out for yourself below.</p>
+                            <p>Now try it for yourself!</p>
                         </div>
                     </div>
                 </div>
@@ -150,8 +161,8 @@
             <hr>
             <div id="triangulation" class="row">
                 <div class="col-md-12">
-                    <h2>How to triangulate</h2>
-                    <p>Given two locations, with coordinates and headings (compass directions in degrees), how can you triangulate another point?</p>
+                    <h2>Triangulation calculation</h2>
+                    <p>Given two locations, with coordinates and headings (compass directions in degrees), how can you triangulate a point?</p>
                     <p>Let us define the two locations <i>L<sub>1</sub></i> and <i>L<sub>2</sub></i> as having the following <i>x</i> and <i>y</i> values from a cartesian coordinate system:
                     </p>
                     <ul>
@@ -175,7 +186,7 @@
                     <p><img width="400px" src="rsc/lineequation.svg"></p>
 
                     <h4>Determining slope from compass heading</h4>
-                    Before converting a compass reading to a slope, let's be clear about what is meant by slope.</p>
+                    <p>Before converting a compass reading to a slope, let's be clear about what is meant by slope.</p>
                     <p><img src="rsc/triangulation.svg" title="Calculating slope" width="100%"></p>
                     <p>Slopes can now be calculating by simply getting the inverse of the tangent:</p>
                     <p class="text-center">
@@ -203,7 +214,7 @@
                     <i>Equation 3: Solving for the y-intercepts for both L<sub>1</sub> and L<sub>2</sub>.</i>
                     </p>
 
-                    <p>As we know the coordinates (x, y) and now the slope for each location, we can solve for b.</p>
+                    <p>As <b>we know the coordinates (x, y)</b> and now the slope for each location, we can solve for b.</p>
                     <ul>
                         <li>L<sub>1</sub>: b<sub>1</sub> = y<sub>1</sub> - m<sub>1</sub>x<sub>1</sub></li>
                         <li>L<sub>2</sub>: b<sub>2</sub> = y<sub>2</sub> - m<sub>2</sub>x<sub>2</sub></li>
@@ -215,7 +226,7 @@
                         <li>L<sub>2</sub>: y = m<sub>2</sub>x + b<sub>2</sub></li>
                     </ul>
 
-                    <p>Now that both linear equations are known, it is time to solve for where they intercept.</p>
+                    <p>Now that both linear equations are known, <strong>it is time to solve for where they intercept</strong>.</p>
 
                     <h3>Calculating the intercept of two lines</h3>
                     <p>Given two linear equations it is possible to solve their intercept.</p>
@@ -236,12 +247,11 @@
                     <p class="text-center">
                     <strong>
                         y<sub>i</sub> = m<sub>1</sub>x<sub>i</sub> + b<sub>1</sub><br>
-                        y<sub>i</sub> = m<sub>1</sub>(b<sub>2</sub> - b<sub>1</sub>) / (m<sub>1</sub> - m<sub>2</sub>) + b<sub>1</sub><br>
                     </strong>
                     <i>Equation 5: Solving the y coordinate of the intercept, y<sub>i</sub>.</i>
                     </p>
 
-                    <p>Equations 4 and 5 allow solving the interception location of both linear equations. In practice however, there's error, making compass readings and calculated intercepts unrealistic. The amount of error will depend on a variety of factors, such as compass reading error, compass error (e.g. due to metal nearby), and magnetic declination.
+                    <p>Equations 4 and 5 allow solving the interception location of both linear equations. In practice however, there's error, making compass readings and calculated intercepts uncertain. The amount of error will depend on a variety of factors, such as compass reading error, compass error (e.g. due to metal nearby), and (unnacounted for) magnetic declination.
 
                     <h3>Calculating distance</h3>
                     <p>A good application of triangulation is not only determining the location of an objective, but also its distance.</p>
